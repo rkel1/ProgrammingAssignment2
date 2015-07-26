@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Set of functions that will find the inverse of a matrix object which
+## can be cached to speed future computations
 
 <<<<<<< HEAD
 ## creates a matrix object that can cache its inverse
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## finds inverse of x, retrieves it from cahce if already computed
+## finds inverse of x, retrieves it from cache if already computed
 
 cacheSolve <- function(x, ...) {
         m <- x$getinverse()
